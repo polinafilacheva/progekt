@@ -8,6 +8,21 @@
   <link rel="stylesheet" href="style/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=cyrillic" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+  $(function() {
+   $("h3, h2, h4, h5").delay(1000).fadeTo( "slow", 1 );
+  });
+  $(function() {
+   $("#1s").delay(2500).fadeTo( "slow", 1 );
+  });
+  $(function() {
+   $("#2s").delay(3500).fadeTo( "slow", 1 );
+  });
+  $(function() {
+   $("#3s").delay(4500).fadeTo( "slow", 1 );
+  });
+  </script>
 </head>
 <body>
   <section class="pointster">
@@ -28,7 +43,7 @@
   <section class="text">
     <div class="card">
       <div><img id="new" src="img/foncub.jpg"></div>
-        <p>Это система несет идею многослойного
+        <p id="1s">Это система несет идею многослойного
         мира посредством AR технологий.
         Теперь вы не беспокоитесь о ремонте,
         визум сделает все за вас.
@@ -36,7 +51,7 @@
     </div>
     <div class="card2">
       <div><img id="new" src="img/foncub.jpg"></div>
-        <p>Линзы сделаны из водоградиентного
+        <p id="2s">Линзы сделаны из водоградиентного
         материала, поэтому обеспечивают
         наиболее комфортное ношение,
         также удобны в уходе.
@@ -44,7 +59,7 @@
     </div>
     <div class="card3">
       <div><img id="new" src="img/foncub.jpg"></div>
-        <p>Наша команда всегда рада
+        <p id="3s">Наша команда всегда рада
         вам помочь. По возникающим
         вопросам пишите нам! poli@gmai.com
         </p>

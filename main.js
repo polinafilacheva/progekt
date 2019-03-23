@@ -7,13 +7,13 @@ anime({
   },
   rotate: {
     value: 1440,
-    duration: 6500,
+    duration: 9000,
     easing: 'easeInOutSine',
   },
   scale: {
     value: 1,
     duration: 1600,
-    delay: 800,
+    delay: 400,
     easing: 'easeInOutQuart'
   },
   delay: 250
@@ -27,7 +27,7 @@ anime({
   },
   rotate: {
     value: 1440,
-    duration: 6500,
+    duration: 9000,
     easing: 'easeInOutSine'
   },
   scale: {
