@@ -1,8 +1,8 @@
 
 .text {
   width: 126vw;
-  height: 187vw;
-  margin-top: 38vw;
+  height: 202vw;
+  margin-top: 30vw;
 
   background-color: #000;
 }
@@ -34,7 +34,7 @@ h2 {
 
 #first {
   width: 20vw;
-  margin-top: -217vw;
+  margin-top: -209vw;
   margin-left: 6vw;
 }
 
@@ -129,7 +129,8 @@ h5 {
 p {
   width: 113vw;
   margin-left: 12vw;
-  padding-top: 20vw;
+  padding-top: 24vw;
+  padding-bottom: 4vw;
 
   opacity: 0;
   color: #fff;
@@ -137,7 +138,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 5.5vw;
   font-weight: 100;
-  line-height: 6.5vw;
+
 }
 
 .card2 {
@@ -164,6 +165,7 @@ p {
     opacity: 0;
   }
 }
+
 @keyframes img {
   0% {
     filter: blur(10px);
